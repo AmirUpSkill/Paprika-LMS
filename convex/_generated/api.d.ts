@@ -15,6 +15,7 @@ import type {
 } from "convex/server";
 import type * as _utils from "../_utils.js";
 import type * as courses from "../courses.js";
+import type * as files from "../files.js";
 import type * as test from "../test.js";
 import type * as users from "../users.js";
 
@@ -29,6 +30,7 @@ import type * as users from "../users.js";
 declare const fullApi: ApiFromModules<{
   _utils: typeof _utils;
   courses: typeof courses;
+  files: typeof files;
   test: typeof test;
   users: typeof users;
 }>;
